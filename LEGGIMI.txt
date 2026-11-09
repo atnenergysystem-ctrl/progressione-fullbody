@@ -1,0 +1,17 @@
+PROGRESSIONE FULL BODY A/B/C — PWA
+
+CONTENUTO
+index.html, app.js, sw.js, manifest.webmanifest, icon-192.png, icon-512.png.
+
+INSTALLAZIONE SU HONOR MAGICPAD 2
+La PWA deve essere pubblicata su un sito HTTPS. Non basta aprire index.html dal file manager.
+Metodo gratuito: crea un repository GitHub pubblico, carica i sei file nella radice, abilita Settings > Pages > Deploy from a branch > main / (root). Attendi la pubblicazione, quindi apri l'indirizzo HTTPS risultante da Chrome sul tablet. Menu ⋮ > Aggiungi a schermata Home > Installa.
+NOTA: un repository pubblico espone il codice dell'app, NON i dati degli allenamenti che sono conservati localmente sul tablet.
+
+UTILIZZO
+Scegli seduta A, B o C; inserisci data, kg, ripetizioni e RIR per ogni serie; salva. Storico e grafici si aggiornano automaticamente.
+Dati: IndexedDB del browser, offline dopo la prima visita. NON cancellare dati del sito o disinstallare senza backup.
+Backup: sezione Backup e scheda > Scarica backup JSON. Copia il file su Drive o altro archivio. Ripristina con l'apposito pulsante.
+
+NOTE
+Non e' un'app APK. Nessun account e nessun servizio cloud integrato. Non importa automaticamente PDF esterni: il programma concordato e' gia' precaricato. Il suggerimento di incremento e' indicativo; controlla tecnica e RIR.
